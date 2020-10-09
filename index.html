@@ -24,10 +24,6 @@
             box-sizing: border-box;
         }
         
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        
         .wadah {
             position: relative;
             width: 100%;
@@ -38,10 +34,20 @@
             overflow: hidden;
         }
         
-        .wadah h1 {
+        .wadah .judul {
+            z-index: 1;
+        }
+        
+        .wadah .judul h1 {
+            font-family: 'Cookie', cursive;
             text-align: center;
             color: black;
-            z-index: 1;
+        }
+        
+        .wadah p {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            color: black;
         }
         
         .wadah .konten-video {
@@ -61,12 +67,16 @@
 
 <body>
     <div class="wadah">
-        <h1 style="font-family: 'Cookie', cursive;">Wellcome to Paradise</h1>
-        <h1><i class="fab fa-facebook-square"></i> facebook.com/onydarrell</h1>
+
+        <div class="judul">
+            <h1 style="font-family: 'Cookie', cursive;">Wellcome to Paradise</h1>
+            <p><i class="fab fa-facebook-square"></i> facebook.com/onydarrell</p>
+        </div>
 
         <div class="konten-video ">
             <video src="https://static.clideo.com/media/loop-video.av1.mp4" autoplay loop></video>
         </div>
+
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
