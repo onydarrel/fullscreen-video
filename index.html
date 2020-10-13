@@ -30,6 +30,15 @@
             /* overflow: hidden; */
         }
         
+        .subwadah {
+            position: relative;
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px;
+            /* z-index: 1; */
+            /* min-width: 1000px; */
+        }
+        
         video {
             position: absolute;
             object-fit: cover;
@@ -40,13 +49,8 @@
             /* pointer-events: none; */
         }
         
-        .konten {
-            position: relative;
-            margin: 0 auto;
-            text-align: center;
-            padding: 50px;
-            /* z-index: 1; */
-            /* min-width: 1000px; */
+        audio {
+            display: none;
         }
         
         h1 {
@@ -59,17 +63,13 @@
             font-family: 'Roboto', sans-serif;
             color: white;
         }
-        
-        audio {
-            display: none;
-        }
     </style>
 </head>
 
 <body>
     <div class="wadah">
         <video src="video/Video.mp4" type="video/mp4" autoplay loop muted></video>
-        <div class="konten">
+        <div class="subwadah">
             <h1>Lorem, ipsum dolor.</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, illum dolorem. Aspernatur culpa sunt amet laboriosam voluptate, magnam expedita perspiciatis odio. Modi sapiente molestiae repellendus, quos consequuntur possimus a rem
                 incidunt corrupti et ipsum! A consectetur, magnam, architecto non maiores sunt culpa aliquam, magni harum distinctio hic eligendi aliquid quo.</p>
