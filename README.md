@@ -1,5 +1,5 @@
 # Fullscreen Video
 
-![{3AB5D8FD-FA5D-431F-A3C5-AC1B72319005} png](https://user-images.githubusercontent.com/14862922/95682149-fa658f00-0c0d-11eb-87d0-bf26497129ec.jpg)
+![Untitled-1](https://user-images.githubusercontent.com/14862922/95831977-ed5ab400-0d63-11eb-9b89-b23308ec8d1f.png)
 
 <a href="https://onysu.github.io/fullscreen-video/">Demo</a>
