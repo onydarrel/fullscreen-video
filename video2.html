@@ -14,9 +14,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        #loadingsatu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.7;
+            background-color: #000;
+        }
+        
+        #loading {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            border: 5px solid #ccc;
+            border-top-color: #ff6a00;
+            position: fixed;
+            opacity: 1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            z-index: 99;
+            animation: putar 2s ease infinite;
+        }
+        
+        @keyframes putar {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <div id="loadingsatu">
+        <div id="loading"></div>
+    </div>
+
     <div class="container">
 
         <div class="wadah">
@@ -52,6 +93,16 @@
 
     <!-- Bootstrap Bundle with Popper.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="data/jquery.slim.min.js"><\/script>')
+    </script>
+    <script src="data/bootstrap.bundle.min.js"></script>
+    <script>
+        var load = document.getElementById("loadingsatu");
+        window.addEventListener('load', function() {
+            load.style.display = "none";
+        });
+    </script>
 </body>
 
 </html>
