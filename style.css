@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.wadah {
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    /* top: 0; */
+    /* left: 0; */
+    /* pointer-events: none; */
+}
+
+.teks {
+    position: relative;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* padding: 50px; */
+    /* z-index: 1; */
+    /* min-width: 1000px; */
+}
+
+
+/* audio {
+            display: none;
+        } */
+
+h1 {
+    font-size: 3.5rem;
+    /* font-family: 'Cookie', cursive; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: blue;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.hal2 h2 {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.hal2 p {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
